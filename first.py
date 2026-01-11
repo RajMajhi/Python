@@ -1,23 +1,24 @@
-"""Commenting in python
+#Commenting in python
 # single line comment
+''' multiline '''
+""" this one too"""
 
 print("hello world")
 #print(5+8)
 
 name = "Raj" # This is a string variable
 age = 21 # This is an integer variable
-
 print("My name is", name, "and I am", age, "years old.")
 
- is_adult = True # This is a boolean variable
+is_adult = True # This is a boolean variable
 
-# # name = "Tony Stark"
-# # age = 51
-# # print (f"My name is {name} {age} years old. and i am a genius") #formatted string literals (f-strings)
+name = "Tony Stark"
+age = 51
+print (f"My name is {name} {age} years old. and i am a genius") #formatted string literals (f-strings)
 
-# name = input("Enter your name: ")
-# age = input("Enter your age: ")
-# print(f"My name is " + name + "and I am " + age + "years old.") # '+' concatenation
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print(f"My name is " + name + "and I am " + age + "years old.") # '+' concatenation
 name = input("Enter your favourite superhero name: ")
 print ("oh! Tony I like " + name + " too")
 
@@ -212,9 +213,16 @@ print(name[0:5]) # substring from index 0 to 4
 Chris
 print(name[3:8]) # substring from index 3 to 7 
 
-"""
 
 # Conditional Statements
+#if
+a=4
+if a>0:
+ print("a is greater and is a positive number.")
+ 
+a is greater and is a positive number
+
+#if else
 age = int(input("Enter your age: ")) # This is an integer variable
 
 age = 21 # This is an integer variable
@@ -225,6 +233,20 @@ if age >= 18:
 else:
     print("You are a minor.")
     print("You cannot vote.")
+
+#if elif else
+a=0
+if a>0:
+ print("a is a positive number.")
+elif a<0:
+ print("a is a negative number.")
+else:
+ print("a is equal to zero.")
+
+a is equal to zero.
+
+ 
+
 
 
 
