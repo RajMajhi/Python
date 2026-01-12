@@ -245,7 +245,29 @@ else:
 
 a is equal to zero.
 
+#list 
+# Print the lists and its length
+print('Fruits:', fruits)
+print('Number of fruits:', len(fruits))
+print('Vegetables:', vegetables)
+print('Number of vegetables:', len(vegetables))
+print('Animal products:',animal_products)
+print('Number of animal products:', len(animal_products))
+print('Web technologies:', web_techs)
+print('Number of web technologies:', len(web_techs))
+print('Countries:', countries)
+print('Number of countries:', len(countries))
  
+Fruits: ['banana', 'orange', 'mango', 'lemon']
+Number of fruits: 4
+Vegetables: ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+Number of vegetables: 5
+Animal products: ['milk', 'meat', 'butter', 'yoghurt']
+Number of animal products: 4
+Web technologies: ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB']
+Number of web technologies: 7
+Countries: ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
+Number of countries: 5
 
 
 
