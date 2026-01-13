@@ -269,6 +269,16 @@ Number of web technologies: 7
 Countries: ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
 Number of countries: 5
 
+#string
+letter = 'P'                # A string could be a single character or a bunch of texts
+print(letter)               # P
+print(len(letter))          # 1
+greeting = 'Hello, World!'  # String could be made using a single or double quote,"Hello, World!"
+print(greeting)             # Hello, World!
+print(len(greeting))        # 13
+sentence = "Yahoo"
+print(sentence)
+
 
 
 
