@@ -279,6 +279,21 @@ print(len(greeting))        # 13
 sentence = "Yahoo"
 print(sentence)
 
+#multilined string 
+
+multiline_string = '''A B C D E F G H I J 
+K L M N O P
+Q R S T U V 
+W X Y Z'''
+print(multiline_string)
+
+# Another way of doing the same thing
+multiline_string = """a b c d e f g h 
+i j k l m n 
+o p q r s t 
+u v w x y z"""
+print(multiline_string)
+
 
 
 
