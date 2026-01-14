@@ -79,6 +79,33 @@ Enter a number:5
 >>> print(a_o_c)
 78.5
 
+>>> first_name=(input("what is your name?\n:"))
+what is your name?
+:Raj
+>>> last_name=(input("what is your surname?\n:"))
+what is your surname?
+:Majhi
+>>> country=(input("Enter the country!"))
+Enter the country!India
+>>> age=(input("age:"))
+age:21
+>>> print(first_name, last_name, country, age)
+Raj Majhi India 21
+>>> help('keywords')
+
+Here is a list of the Python keywords.  Enter any keyword to get more help.
+
+False               class               from                or
+None                continue            global              pass
+True                def                 if                  raise
+and                 del                 import              return
+as                  elif                in                  try
+assert              else                is                  while
+async               except              lambda              with
+await               finally             nonlocal            yield
+break               for                 not
+
+
 
 """
 Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
