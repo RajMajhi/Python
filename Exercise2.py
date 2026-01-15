@@ -43,7 +43,126 @@ area:  7 circumference: 43.96
 >>> a=3.14*(7**2)
 >>> print(a)
 153.86
->>>
+
+ # Calculate the slope, x-intercept and y-intercept of y=2x-2
+>>> slope=2
+>>> y=-2
+>>> x= -y/slope
+>>> print(f'slope:',slope)
+slope: 2
+>>> print(f'y_intercept:',y)
+y_intercept: -2
+>>> print(f'x-intercept:',x)
+x-intercept: 1.0
+
+#Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+
+>>> x1,y1,x2,y2 = 2,2,6,10
+>>> m= (y2-y1)/(x2-x1)
+>>> d= ((x2-x1)**2 + (y2-y1)**2)**0.5
+>>> print('slope:',m)
+slope: 2.0
+>>> print('Euclidea distance:',d)
+Euclidea distance: 8.94427190999916
+# compared both the slopes
+>>> if slope==m:
+...     print("Both the slopes are equal")
+... else:
+...     print("The slopes are different")
+...
+Both the slopes are equal
+
+#Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+
+>>> x=-3
+>>> y=x**2 +6*x+9
+>>> print(y)
+0
+
+>>> len('python')
+6
+>>> len('dragon')
+6
+>>> n= len('python')
+>>> p= len('dragon')
+>>> print(n,p)
+6 6
+
+>>> if n==p:
+...     print("false")
+... else:
+...     print("true")
+...
+false
+
+>>> r=("on"in "python" and "dragon")
+>>> print(r)
+dragon
+>>> r=('on'in'python')and('on'in'dragon')
+>>> print(r)
+True
+>>> q="I hope this course in not full of jargoan"
+>>> q=("jargoan"in"I hope this course in not full of jargoan")
+>>> print(q)
+True
+
+>>> if "on"in"python" and "on"in"dragon":
+...     print("there is no 'on' in both dragon and python")
+... else:
+...     print("")
+...
+there is no 'on' in both dragon and python
+
+>>> a=len('python')
+>>> b=float(a)
+>>> c=str(b)
+>>> print(a)
+6
+>>> print(b)
+6.0
+>>> print(c)
+6.0
+
+>>> num=int(input("Enter a number:"))
+Enter a number:10
+>>> if num % 2 == 0:
+...     print("even")
+... else:
+...     print("not even")
+...
+even
+
+>>> n=2.7
+>>> a=int(n)
+>>> b=7//3
+>>> print(a)
+2
+>>> print(b)
+2
+>>> if a==b:
+...     print("same")
+... else:
+...     print("not same")
+...
+same
+
+>>> if type('10') == type(10):
+...     print("equal")
+... else:
+...     print("not equal")
+...
+not equal
+
+>>> if int('9.8')==10:
+...     print()
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '9.8'
+
+
+
+
 
 """
 Declare your age as integer variable
