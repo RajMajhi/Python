@@ -160,6 +160,24 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ValueError: invalid literal for int() with base 10: '9.8'
 
+a=int(input("Enter hours"))
+Enter hours 40
+>>> b=int(input("Enter rate per hour:"))
+Enter rate per hour:28
+>>> c=a*b
+>>> print("your weekly earning is"c)
+your weekly earning is 1120
+
+>>> a=int(input("Enter number of years you have lived: "))
+Enter number of years you have lived: 100
+>>>
+>>> sec=60
+>>> min=60
+>>> hours=24
+>>> daysin_y=365
+>>> c=a*sec*min*hours*daysin_y
+>>> print('you have lived for',c,'seconds')
+you have lived for 3153600000 seconds
 
 
 
