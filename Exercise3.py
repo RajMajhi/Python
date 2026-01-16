@@ -263,4 +263,16 @@ Siblings: 4
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'food_stuff_tp' is not defined
->>>
+
+>>> a=food_stuff_tp[3:5]
+>>> print(a)
+['tomato', 'potato']
+>>> a=food_stuff_tp[3:6]
+>>> print(a)
+['tomato', 'potato', 'ladyfinger']
+
+>>> nordic_countries=('Denmark','Estonia','Iceland','Norway','Sweden')
+>>> 'Estonia'in nordic_countries
+True
+>>> 'Iceland' in nordic_countries
+True
