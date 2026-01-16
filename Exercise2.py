@@ -179,7 +179,14 @@ Enter number of years you have lived: 100
 >>> print('you have lived for',c,'seconds')
 you have lived for 3153600000 seconds
 
-
+>>> for i in range(1,6):
+...     print(i,i**0,i**1,i**2,i**3)
+...
+1 1 1 1 1
+2 1 2 4 8
+3 1 3 9 27
+4 1 4 16 64
+5 1 5 25 125
 
 
 """
