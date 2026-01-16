@@ -4,3 +4,8 @@ Python basics to advance
 Exercise1= Variables, Builtin Functions.
 <br>
 Exercise2= Operators
+<br>
+Exercise3= Strings, Lists, Tuples
+<br>
+Exercise4= Sets
+
