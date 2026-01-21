@@ -72,29 +72,30 @@ The area of a circle with radius 10 is 314 meters square
 8 // 6 = 1
 8 ** 6 = 262144
 '''
-Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
-Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
-Declare a variable named company and assign it to an initial value "Coding For All".
-Print the variable company using print().
-Print the length of the company string using len() method and print().
-Change all the characters to uppercase letters using upper() method.
-Change all the characters to lowercase letters using lower() method.
-Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
-Cut(slice) out the first word of Coding For All string.
-Check if Coding For All string contains a word Coding using the method index, find or other methods.
-Replace the word coding in the string 'Coding For All' to Python.
-The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
-Use the new line escape sequence to separate the following sentences.
+Questions:- 
+1.Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
+2.Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
+3.Declare a variable named company and assign it to an initial value "Coding For All".
+4.Print the variable company using print().
+5.Print the length of the company string using len() method and print().
+6.Change all the characters to uppercase letters using upper() method.
+7.Change all the characters to lowercase letters using lower() method.
+8.Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+9.Cut(slice) out the first word of Coding For All string.
+10.Check if Coding For All string contains a word Coding using the method index, find or other methods.
+11.Replace the word coding in the string 'Coding For All' to Python.
+12.The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+13.Use the new line escape sequence to separate the following sentences.
 I am enjoying this challenge.
 I just wonder what is next.
-Use a tab escape sequence to write the following lines.
+14.Use a tab escape sequence to write the following lines.
 Name      Age     Country   City
 Asabeneh  250     Finland   Helsinki
-Use the string formatting method to display the following:
+15.Use the string formatting method to display the following:
 radius = 10
 area = 3.14 * radius ** 2
-The area of a circle with radius 10 is 314 meters square.
-Make the following using string formatting methods:
+16.The area of a circle with radius 10 is 314 meters square.
+17.Make the following using string formatting methods:
 8 + 6 = 14
 8 - 6 = 2
 8 * 6 = 48
@@ -105,6 +106,7 @@ Make the following using string formatting methods:
 '''
 #>>>Data type datatype.
 '''
+Info:- 
 There are four collection data types in Python :
 
 List: is a collection which is ordered and changeable(modifiable). Allows duplicate members.
@@ -168,38 +170,40 @@ NameError: name 'it_companies' is not defined
 ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
 
 '''
-Declare an empty list
+Questions:-
+1.Declare an empty list
 
-Declare a list with more than 5 items
+2.Declare a list with more than 5 items
 
-Find the length of your list
+3.Find the length of your list
 
-Get the first item, the middle item and the last item of the list
+4.Get the first item, the middle item and the last item of the list
 
-Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+5.Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
 
-Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+6.Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 
-Print the list using print()
+7.Print the list using print()
 
-Print the number of companies in the list
+8.Print the number of companies in the list
 
-Print the first, middle and last company
+9.Print the first, middle and last company
 
-Print the list after modifying one of the companies
+10.Print the list after modifying one of the companies
 
-Add an IT company to it_companies
+11.Add an IT company to it_companies
 
-Destroy the IT companies list
+12.Destroy the IT companies list
 
-Join the following lists:
+13.Join the following lists:
 
-front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+14.front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
 
 '''
 #TUPLE
 """
+Info:-
 A tuple is a collection of different data types which is ordered and unchangeable (immutable). Tuples are written with round brackets, (). Once a tuple is created, we cannot change its values. We cannot use add, insert, remove methods in a tuple because it is not modifiable (mutable). Unlike list, tuple has few methods. Methods related to tuples:
 
 tuple(): to create an empty tuple
@@ -278,20 +282,21 @@ True
 True
 
 """
+Questions:-
 Exercises: Level 1
-Create an empty tuple
-Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
-Join brothers and sisters tuples and assign it to siblings
-How many siblings do you have?
-Modify the siblings tuple and add the name of your father and mother and assign it to family_members
+1.Create an empty tuple
+2.Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
+3.Join brothers and sisters tuples and assign it to siblings
+4.How many siblings do you have?
+5.Modify the siblings tuple and add the name of your father and mother and assign it to family_members
 Exercises: Level 2
-Unpack siblings and parents from family_members
-Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
-Change the about food_stuff_tp tuple to a food_stuff_lt list
-Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
-Slice out the first three items and the last three items from food_stuff_lt list
-Delete the food_stuff_tp tuple completely
-Check if an item exists in tuple:
+1.Unpack siblings and parents from family_members
+2.Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
+3.Change the about food_stuff_tp tuple to a food_stuff_lt list
+4.Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
+5.Slice out the first three items and the last three items from food_stuff_lt list
+6.Delete the food_stuff_tp tuple completely
+7.Check if an item exists in tuple:
 Check if 'Estonia' is a nordic country
 
 Check if 'Iceland' is a nordic country
