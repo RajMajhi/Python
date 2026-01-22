@@ -19,23 +19,25 @@ Exercise Level 1
 >>> print(it_companies)
 {'Oracle', 'dontknow', 'twitter', 'Amazon', 'Microsoft', 'Facebook', 'IBM', 'Apple', 'kateo', 'Google'}
 '''
->>> In sets we have remove and discard that have basically same functionality 
+>>>
+In sets we have remove and discard that have basically same functionality 
 but there is a minor difference i.e when we want to remove an item from a set which is not present ,
 it will throw an error . But on the other hand if we do the same with discard it will not throw any 
 exception or error and will execute the following set.
 '''
 """
+Questions:- 
 # LEVEL 1
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 Exercises: Level 1
-Find the length of the set it_companies
-Add 'Twitter' to it_companies
-Insert multiple IT companies at once to the set it_companies
-Remove one of the companies from the set it_companies
-What is the difference between remove and discard
+1.Find the length of the set it_companies
+2.Add 'Twitter' to it_companies
+3.Insert multiple IT companies at once to the set it_companies
+4.Remove one of the companies from the set it_companies
+5.What is the difference between remove and discard
 
 """
 Exercise Level 2
@@ -74,14 +76,16 @@ Traceback (most recent call last):
 NameError: name 'A' is not defined
 
 """
-Join A and B
-Find A intersection B
-Is A subset of B
-Are A and B disjoint sets
-Join A with B and B with A
-What is the symmetric difference between A and B
-Delete the sets completely
+Questions:-
+1.Join A and B
+2.Find A intersection B
+3 Is A subset of B
+4.Are A and B disjoint sets
+5.Join A with B and B with A
+6.What is the symmetric difference between A and B
+7.Delete the sets completely
 """
+
 Exercise Level 3
 
 >>> age = [22, 19, 24, 25, 26, 24, 25, 24]
@@ -148,10 +152,11 @@ Traceback (most recent call last):
 NameError: name 'student' is not defined
 
 """
-Create an empty dictionary called dog
-Add name, color, breed, legs, age to the dog dictionary
-Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
-Get the length of the student dictionary
-Modify the skills values by adding one or two skills
-delete the dictionary
+Questions:-
+1.Create an empty dictionary called dog
+2.Add name, color, breed, legs, age to the dog dictionary
+3.Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
+4.Get the length of the student dictionary
+5.Modify the skills values by adding one or two skills
+6.delete the dictionary
 """
