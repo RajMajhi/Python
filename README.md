@@ -11,5 +11,6 @@ Exercise4= Sets, Dictionary
 <br>
 Exercise5= Conditionals, Loops
 <br>
+Exercise6= Functions,
 
 
