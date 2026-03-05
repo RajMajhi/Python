@@ -18,7 +18,7 @@ It is widely used in web development, data science, artificial intelligence, aut
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1️⃣ Download Python
 
@@ -50,7 +50,7 @@ python3 --version
 
 ---
 
-## ⚙️ Using Python with Virtual Environment (Recommended)
+##  Using Python with Virtual Environment (Recommended)
 
 Create a virtual environment:
 
@@ -78,7 +78,7 @@ deactivate
 
 ---
 
-## 📓 Using Python with Jupyter Notebook
+##  Using Python with Jupyter Notebook
 
 Install Jupyter:
 
@@ -96,7 +96,7 @@ Create a new Python notebook and start coding.
 
 ---
 
-## 🚀 Basic Python Syntax
+##  Basic Python Syntax
 
 ### 1️⃣ Print Statement
 
@@ -201,7 +201,7 @@ print(s1.introduce())
 
 ---
 
-## 📦 Installing Packages
+##  Installing Packages
 
 Install packages using pip:
 
@@ -217,7 +217,7 @@ pip list
 
 ---
 
-## 📁 Running a Python Script
+##  Running a Python Script
 
 Save file as `main.py` and run:
 
@@ -227,7 +227,7 @@ python main.py
 
 ---
 
-## 📚 Useful Libraries
+##  Useful Libraries
 
 - NumPy (Scientific computing)
 - Pandas (Data analysis)
@@ -237,7 +237,7 @@ python main.py
 
 ---
 
-## 🧠 Why Learn Python?
+##  Why Learn Python?
 
 - Beginner-friendly
 - Large community support
@@ -246,6 +246,6 @@ python main.py
 
 ---
 
-Happy Coding 🚀
+Happy Coding @RajMajhi
 
 
