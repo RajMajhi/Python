@@ -59,4 +59,13 @@ def check_season(month):
 print(check_season('MAY'))
 >>> spring
 
-
+>>> def calculate_slope(x1,y1,x2,y2):
+...    if x2 - x1 == 0:
+...        return "undefined"
+...    else:
+...        m=(y2 - y1) / (x2 - x1)
+...        return m
+...
+>>> slope = calculate_slope(0,0,2,4)
+>>> print(f"The slope for points (0,0) and (2,4) is: {slope}")
+The slope for points (0,0) and (2,4) is: 2.0
