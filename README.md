@@ -12,6 +12,8 @@ Exercise4= Sets, Dictionary
 Exercise5= Conditionals, Loops
 <br>
 Exercise6= Functions,
+<br>
+Exercise7=
 
 Python is a high-level, interpreted programming language known for its simplicity and readability.  
 It is widely used in web development, data science, artificial intelligence, automation, and scientific computing.
