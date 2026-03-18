@@ -69,3 +69,31 @@ print(check_season('MAY'))
 >>> slope = calculate_slope(0,0,2,4)
 >>> print(f"The slope for points (0,0) and (2,4) is: {slope}")
 The slope for points (0,0) and (2,4) is: 2.0
+
+
+import math
+def is_prime(number):
+    
+    if number <=1:
+        return False
+        
+    if number==2:
+        return True
+        
+    if number%2==0:
+        return False
+        
+    limit = int(math.sqrt(number)) + 1
+    for i in range(3, limit, 2):
+        if number % i == 0:
+            return False
+            
+    return True
+
+num1 = 5   
+if is_prime(num1):
+    print(f"{num1} is a prime number")
+    
+else:
+    print(f"{num1}is not a prime number")
+    
