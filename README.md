@@ -13,7 +13,8 @@ Exercise5= Conditionals, Loops
 <br>
 Exercise6= Functions,
 <br>
-
+Exercise7=
+<br>
 
 Python is a high-level, interpreted programming language known for its simplicity and readability.  
 It is widely used in web development, data science, artificial intelligence, automation, and scientific computing.
@@ -236,6 +237,8 @@ python main.py
 - Matplotlib (Visualization)
 - Flask / Django (Web development)
 - Scikit-learn (Machine learning)
+- Scipy
+- Qiskit (Quantum SDK)
 
 ---
 
